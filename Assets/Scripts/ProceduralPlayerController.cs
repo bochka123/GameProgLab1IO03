@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class ProceduralPlayerController : MonoBehaviour
 {
-    [SerializeField] private float jumpForce = 10f;
-    [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private float jumpForce;
+    [SerializeField] private float moveSpeed;
     private Rigidbody2D _rb;
     private Animator _animator;
     private readonly string[] _animationNames;
