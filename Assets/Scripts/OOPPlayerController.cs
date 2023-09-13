@@ -4,8 +4,8 @@ public class OOPPlayerController : MonoBehaviour
 {
     private OOPCharacter _character;
     private OOPAnimatorPlayerController _animatorPlayerController;
-    public float speed = 5f;
-    public float jumpForce = 10f;
+    [SerializeField] private float speed = 5f;
+    [SerializeField] private float jumpForce = 10f;
 
     private void Start()
     {
